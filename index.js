@@ -1,1 +1,9 @@
-// code your solution here
+
+
+const superbowlWin = collection => {
+    for (const item of collection) {
+        if (item.result==='W') {
+            return item.year
+        }
+    }
+}
